@@ -1,0 +1,8 @@
+{
+  "name": "OstomyAI Care",
+  "description": "Smart AI-First assistant for clinical wound assessment and Braden Scale risk calculation based on hospital standards.",
+  "requestFramePermissions": [
+    "camera"
+  ],
+  "majorCapabilities": []
+}

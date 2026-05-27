@@ -1,0 +1,21 @@
+{
+  "short_name": "OstomyAI",
+  "name": "OstomyAI Care",
+  "description": "Smart AI-First assistant for clinical wound assessment and Braden Scale risk calculation based on hospital standards.",
+  "icons": [
+    {
+      "src": "https://storage.googleapis.com/maker-suite-guides/icons/Pwa-192.png",
+      "type": "image/png",
+      "sizes": "192x192"
+    },
+    {
+      "src": "https://storage.googleapis.com/maker-suite-guides/icons/Pwa-512.png",
+      "type": "image/png",
+      "sizes": "512x512"
+    }
+  ],
+  "start_url": ".",
+  "display": "standalone",
+  "theme_color": "#1e40af",
+  "background_color": "#fdfdfd"
+}

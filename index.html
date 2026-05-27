@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="th">
+  <head>
+    <script type="importmap">
+    {
+      "imports": {
+        "lucide-react": "https://esm.sh/lucide-react@^0.564.0",
+        "@google/genai": "https://esm.sh/@google/genai@^1.41.0",
+        "react": "https://esm.sh/react@^19.2.4",
+        "react/": "https://esm.sh/react@^19.2.4/",
+        "react-dom/": "https://esm.sh/react-dom@^19.2.4/",
+        "@supabase/supabase-js": "https://esm.sh/@supabase/supabase-js@^2.95.3"
+      }
+    }
+    </script>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, viewport-fit=cover" />
+    
+    <!-- Professional Medical AI Icon (Base64) -->
+    <link rel="apple-touch-icon" href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAALQAAAC0CAMAAAAfW3xwAAAAhFBMVEUAHp8AHp8AHp8AHp8AHp8AHp8AHp8AHp8AHp8AHp8AHp8AHp8AHp8AHp8AHp8AHp8AHp8AHp8AHp8AHp8AHp8AHp8AHp8AHp8AHp8AHp8AHp8AHp8AHp8AHp8AHp8AHp8AHp8AHp8AHp8AHp8AHp8AHp8AHp8AHp8AHp8AHp8AHp8AHp8AHp8AHp9iG3oXAAAALHRSTlMAAgMEBQYICQoLDA0ODxAREhMUFRYXGBkaGxwdHh8gISIjJCUmJygpKi0uLzAyY89atAAAAnZJREFUeNrt29mSgyAMBuAsatS4t7XWttX2/V9xhSGYmSStonOf/8LAByEsY8YBAAAAAAAAAAAAAAAAAAAAAMA/YOf9vN98XpS980NuxhM6n7z1Q27KjXN610+5Gd8Y1u9vO9yUrxpP/ZSb8XmE7S8350N8z66fclO+9PDVp9yUD8Zp79D960v58E4O+yE35v3SIn/0V27K/fB9f8qN+Vp7/7v308tXueX98993f773+pSb89XonB9yU26c07t+ys34xrB+f9vhpnzVeOqn3IzPI2x/uTkf4nt2/ZSbsvV+eOqn3JyvRvfH3Jiveu+H3JSvRvf66S83Z++XfX/KTblxDuf8kJty45ze9VNuxjeG9fvbDjdlaD31V27O1/fUf8pN+Xl+rZ9yc74Z3/dTbsqN83O//XJzPsT37PopN2WvRvf96S83Z69G98fcmK9G9/rpLzdnr0b3x9yYr0b3+ukvN2evRvfH3Jiveu+H3JSvRvf66S83Z69G98fcmK9G9/rpLzdnr0b3x9yYr0b3+ukvN2evRvfH3Jiveu+H3JSvRvf66S83Z69G98fcmK9G9/rpLzdnr0b3x9yYr0b3+ukvN2evRvfH3Jiveu+H3JSvRvf66S83Z69G98fcmK9G9/rpLzdnr0b3x9yYr0b3+ukvN2evRvfH3Jiveu+H3JSvRvf66S83Z69G98fcmK9G9/rpLzdnr0b3x9yYr0b3+ukvN2evRvfH3Jiveu+H3JSvRvf66S83Z69G98fcmK9G9/rpLzdnr0b3x9yYr0b3+ukvN2evRvfH3Jiveu+H3JSvRvf66S83Z69G98fcmK9G9/rpLzdnr0b3x9yYr0b3+ukvN/8F7+f9vD9fF97X08DPAAAAAAAAAAAAAAAAAAAAAOD/8Asm6xYV6YIujwAAAABJRU5ErkJggg==">
+    <link rel="manifest" href="/manifest.json">
+    
+    <title>OstomyAI Care</title>
+    
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+    <meta name="apple-mobile-web-app-title" content="OstomyAI">
+    <meta name="mobile-web-app-capable" content="yes">
+    <meta name="theme-color" content="#1e40af">
+
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;600;700;800&family=Sarabun:wght@300;400;600;700&display=swap" rel="stylesheet">
+    
+    <style>
+      :root { --primary: #1e40af; }
+      body {
+        font-family: 'Plus Jakarta Sans', 'Sarabun', sans-serif;
+        background: #fdfdfd;
+        color: #1e293b;
+        -webkit-user-select: none;
+        user-select: none;
+        -webkit-tap-highlight-color: transparent;
+        overflow-x: hidden;
+      }
+      .minimal-shadow { box-shadow: 0 10px 30px -10px rgba(0,0,0,0.04); }
+      @keyframes float {
+        0%, 100% { transform: translateY(0) rotate(-45deg); }
+        50% { transform: translateY(-10px) rotate(-43deg); }
+      }
+      .icon-float { animation: float 6s ease-in-out infinite; }
+      .safe-top { padding-top: env(safe-area-inset-top); }
+      .safe-bottom { padding-bottom: env(safe-area-inset-bottom); }
+    </style>
+  <link rel="stylesheet" href="/index.css">
+</head>
+  <body>
+    <div id="root"></div>
+  <script type="module" src="/index.tsx"></script>
+</body>
+</html>
